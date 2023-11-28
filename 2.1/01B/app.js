@@ -16,7 +16,7 @@ app.runApplication();
 console.log(app.greeting);
 console.log("appNaam: "+app.appNaam);
 console.log("versieNummer: "+app.versieNummer);
-console.log("versieNummer: "+app.versieDatum);
+console.log("versieDatum: "+app.versieDatum);
 console.log("autheur: "+app.autheur);
 console.log("copyright: "+app.copyright);
 console.log("distributeur: "+app.distributeur);
