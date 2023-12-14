@@ -19,13 +19,6 @@ class App{
             const element = array[i];
             console.log(i +": "+element);
         }
-
-
-
-
-
-
-
         let cijfers=[4,6,2,7];
         console.log(cijfers)
         for (let i = 0; i < cijfers.length; i++) {
