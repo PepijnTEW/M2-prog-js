@@ -12,10 +12,17 @@ class App{
         let uiButton2 = document.getElementById("button2");
         uiButton2.addEventListener("click",(e)=>
         {
-            const para = document.createElement("p");
-            const node = document.createTextNode("this is new.");
+            let para = document.createElement("h1");
+            let node = document.createTextNode("It's a Me");
             para.appendChild(node)
             document.body.appendChild(para);
+            para = document.createElement("p");
+            node = document.createTextNode("Mario");
+            para.appendChild(node)
+            document.body.appendChild(para);
+            let img = document.createElement("img");
+            img.src = ('IMGS/mario.png');
+            document.body.appendChild(img);
         });
     }
 }

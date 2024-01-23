@@ -33,4 +33,4 @@ console.log("distributeur: "+app.distributeur);
 console.log("darkmode: "+app.darkmode);
 console.log("classboolean: "+app.classboolean);
 console.log("classString: "+app.classString);
-console.log("classNum: "+app.classnumber);
+console.log("classNum: "+app.classnumber); 
